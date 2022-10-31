@@ -21,8 +21,8 @@ The project can be easily replicated by the user, provided the following prerequ
 ## Solution description
 
 The solution is composed of the following steps:
-1 Create a configuration file where credentials and other parameters are stored
-2 Create an S3 bucket where the streaming data will be stored
+- Create a configuration file where credentials and other parameters are stored
+- Create an S3 bucket where the streaming data will be stored
 3 Create an Identity Access Management (IAM) role to allow Kinesis Firehose to write to S3
 4 Create a policy granting write permission into the S3 bucket created above
 5 Attach the policy to the IAM role
@@ -34,7 +34,7 @@ The solution is composed of the following steps:
 2 A AWS user with Admin permission (if not set up yet please refer here) should have been created and a set of credentials (Access Key ID and Secret Access Key) should be available
 3 Python and Boto3 (AWS SDK for Python) should be installed on the user's machine.
 
-All the user-defined parameters will be read from a .cfg file named \texttt{}. The congif file is structuted according to sections (AWS, Redshift, S3, ...), where each section contains parameters related to a logical domain.
+All the user-defined parameters will be read from a .cfg file named \texttt{}.
 
 ## Content of the Github Repository
 
