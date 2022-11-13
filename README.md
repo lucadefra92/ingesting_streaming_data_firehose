@@ -34,7 +34,7 @@ The solution is composed of the following steps:
 - A AWS user with Admin permission (if not set up yet please refer here) should have been created and a set of credentials (Access Key ID and Secret Access Key) should be available
 - Python and Boto3 (AWS SDK for Python) should be installed on the user's machine.
 
-All the user-defined parameters will be read from a .cfg file named \texttt{}.
+All the user-defined parameters will be read from a .cfg file named \texttt{dl.cfg}.
 
 ## Content of the Github Repository
 
